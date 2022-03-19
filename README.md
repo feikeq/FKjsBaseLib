@@ -6,7 +6,7 @@ FK肥客泉JS基础方法库
 * 作者：肥客泉 - [https://github.com/feikeq/](https://github.com/feikeq/)
 
 
-##FKjsBaseLib API 使用文档：
+## FKjsBaseLib API 使用文档：
 安装
 ```html
 <script src="jquery/jquery.min.js"></script>
@@ -19,8 +19,9 @@ $$FK$$.ready(function(){
 }
 ```
 
-**函数方法 function：
+## 函数方法 function：
   -------------------------------------
+```
   ver 查看当前JS库版本信息 
   isArray(obj) 判断是否为 Array 数组
   isObject(obj) 判断是否为 Object 对象
@@ -41,10 +42,11 @@ $$FK$$.ready(function(){
   formatime(time,formatstr) 时间字符串或时间戳按指定方式进行格式化
   log(1,2,3...) 美化debug输出，与console.log差不多是打印输了出到控制台的简化命今
   copy(str) 复制文本到剪切版 成功:true 或 失败:false  执行完函数后，按ctrl + v试试
+```
 
-
-**$$FK$$的DOM操作function（可链式操作）：
+## $$FK$$的DOM操作function（可链式操作）：
   -------------------------------------
+```
   (text) 通过CSS选择器获元素
   get(index) 获元素集合中的第几个
   html 设置被选元素的内容
@@ -62,3 +64,4 @@ $$FK$$.ready(function(){
   before(html) 在每个匹配的元素之前插入内容
   each(function (index, ele){}) 遍历元素
   on(eventName, callback) 事件监听
+```
