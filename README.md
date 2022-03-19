@@ -7,11 +7,11 @@ FK肥客泉JS基础方法库
 
 
 ## FKjsBaseLib API 使用文档：
-安装
+### 安装
 ```html
 <script src="jquery/jquery.min.js"></script>
 ```
-使用
+### 使用
 ```javascript
 // 直接使用 $$FK$$ 变量像jQuery类似
 $$FK$$.ready(function(){
