@@ -1,6 +1,10 @@
 # FKjsBaseLib
 FK肥客泉JS基础方法库
 
+* FKjsBaseLib v1.3.20220317
+* https://www.FK68.net
+* Copyright (c) 2019 Feikeq
+*
 * 时间：2009-03-08
 * 修改：2022-03-17
 * 作者：肥客泉 - [https://github.com/feikeq/](https://github.com/feikeq/)
