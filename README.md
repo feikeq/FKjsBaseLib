@@ -13,7 +13,7 @@
   ## FKjsBaseLib API 使用文档：
   ### 安装
   ```html
-  <script src="./FKjsBaseLib.min.js">＜/script>
+  <script src="./FKjsBaseLib.min.js"></script>
   ```
   ### 使用
   ```javascript
@@ -49,7 +49,7 @@
     copy(str) 复制文本到剪切版 成功:true 或 失败:false  执行完函数后，按ctrl + v试试
   ```
   
-  ## $$FK$$的DOM操作function（可链式操作）：
+  ## $ $ FK $ $ 的DOM操作function（可链式操作）：
     -------------------------------------
   ```
     (text) 通过CSS选择器获元素
