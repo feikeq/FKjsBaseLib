@@ -1,7 +1,7 @@
 # FKjsBaseLib
   FK肥客泉JS基础方法库
   
-  * FKjsBaseLib v1.3.20220707
+  * FKjsBaseLib v1.4.20220824
   * https://www.FK68.net
   * Copyright (c) 2019 Feikeq
   *
@@ -13,7 +13,7 @@
   ## FKjsBaseLib API 使用文档：
   ### 安装
   ```html
-  <script src="./FKjsBaseLib.min.js"></script>
+  <script src="./FKjsBaseLib.min.js">＜/script>
   ```
   ### 使用
   ```javascript
@@ -67,6 +67,7 @@
     prepend(html) 向匹配元素集合中的每个元素开头插入由参数指定的内容
     after(html) 在匹配的元素之后插入内容
     before(html) 在每个匹配的元素之前插入内容
+    closest(text) 返回被选元素的第一个祖先元素
     each(function (index, ele){}) 遍历元素
     on(eventName, callback) 事件监听
   ```
