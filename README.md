@@ -1,12 +1,12 @@
-# FKjsBaseLib
+  # FKjsBaseLib
   FK肥客泉JS基础方法库
   
-  * FKjsBaseLib v1.4.20220824
+  * FKjsBaseLib v1.5.20220907
   * https://www.FK68.net
-  * Copyright (c) 2019 Feikeq
+  * Copyright (c) 2022 FeikeQ
   *
   * 时间：2009-03-08
-  * 修改：2022-07-07
+  * 修改：2022-09-07
   * 作者：肥客泉 - [https://github.com/feikeq/](https://github.com/feikeq/)
   
   
@@ -27,6 +27,7 @@
     -------------------------------------
   ```
     ver 查看当前JS库版本信息 
+    typeOf(obj) 校验数据类型
     isArray(obj) 判断是否为 Array 数组
     isObject(obj) 判断是否为 Object 对象
     trim(text) 去掉字符串前后空格
@@ -36,8 +37,8 @@
     getDomain 获取网站主域名根域名
     FKCookie(c_name, value, expireday, path, domain) Cookie操作，获取、设置、删除Cookie
     getCookieArray(text||null) 获取所有Cooike成为对象
-    getParameterByName(name, url||null) 获取地址栏URL的参数{ name(必选) 为要得到的参数名 ,url(可选) 自定义地址或为空[当前网址]}
-    getQueryString(url||null) 将URL地址里的params=value数据变成数组对象,url(可选) 自定义地址或为空[当前网址]}
+    getParameterByName(name, url||null) 获取地址栏URL的参数{ name为必选参数 为要得到的参数名 ,url为可选参数 自定义地址或为空[当前网址]}
+    getQueryParams(url||null) 将URL地址里的params=value数据变成数组对象,url为可选参数 自定义地址或为空[当前网址]}
     params(obj) 将JSON数组对象转成字符串参数 params 查询字符串 例 a=1&b=2
     addQueryString(query,url||null) 拼接地址链接URL的参数（检查 url 链接是否已经有参数，添加 ？问号 或 & 与号）
     serializeArray(formClass||formID) 实现form表单序列化的方法
@@ -57,6 +58,7 @@
     html 设置被选元素的内容
     css 设置或返回被选元素的一个或多个样式属性
     hide 隐藏被选元素
+    smoothScroll 平滑滚动到元素位置
     show(display) 如果被选元素已被隐藏则显示元素（非内联样式需要指定display 默认为 block ）
     attr(name,val) 设置或返回被选元素的属性值
     removeAttr(name) 从被选元素中移除属性
