@@ -1,12 +1,12 @@
-  # FKjsBaseLib
+# FKjsBaseLib
   FK肥客泉JS基础方法库
   
-  * FKjsBaseLib v1.5.20220907
+  * FKjsBaseLib v1.6.20230321
   * https://www.FK68.net
   * Copyright (c) 2022 FeikeQ
   *
   * 时间：2009-03-08
-  * 修改：2022-09-07
+  * 修改：2023-03-21
   * 作者：肥客泉 - [https://github.com/feikeq/](https://github.com/feikeq/)
   
   
@@ -48,6 +48,8 @@
     formatime(time,formatstr) 时间字符串或时间戳按指定方式进行格式化
     log(1,2,3...) 美化debug输出，与console.log差不多是打印输了出到控制台的简化命今
     copy(str) 复制文本到剪切版 成功:true 或 失败:false  执行完函数后，按ctrl + v试试
+    debounce(function,timer) 防抖: 从最后一次触发开始，在timer毫秒后执行函数。 因为是最后一次触发，所以会把中间的触发盖掉。
+    throttle(function,timer) 节流: 从最初一次触发开始，在timer毫秒后执行函数。 中间无论触发多少次都不会执行。 
   ```
   
   ## $ $ FK $ $ 的DOM操作function（可链式操作）：
